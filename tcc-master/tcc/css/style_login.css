@@ -1,0 +1,161 @@
+ .btn-primary {
+     width: 83%;
+     height: 5%;
+     background-color: #34ce57;
+     border-color: #34ce57;
+ }
+
+.btn-primary:hover{
+    background-color: #8fdf82;
+    border-color: #8fdf82;
+}
+
+ .form-control{
+     width: 83%;
+     height: 5%;
+
+ }
+
+ body{
+     background-image: url("../../imagens/calendario.png");
+     background-size: 100%;
+     background-attachment:fixed
+ }
+
+ .suprema{
+     margin-left: 3%;
+     margin-right: 45%;
+     margin-top: 3%;
+ }
+
+ h1{
+     font-size: 400%;
+     margin-left: 21%;
+     font-family: "Courier New", Courier, monospace;
+     font-weight: bold;
+
+
+ }
+
+ #cadastro {
+     margin-left: 28%;
+     font-size: 130%;
+ }
+
+ #esqueceu_senha{
+     margin-left: 17%;
+     font-size: 130%;
+ }
+
+ h2{
+     text-align: center;
+     font-size: 330%;
+     font-family: "Courier New", Courier, monospace;
+     font-weight: bold;
+ }
+
+
+
+ h3{
+     font-size: 180%;
+     text-align: center;
+     font-family: "Courier New", Courier, monospace;
+     color: black;
+
+ }
+
+ img{
+     margin-left: 15%;
+     margin-bottom: 7.5%;
+     margin-top: 1%;
+     width: 26%;
+     height: 24%;
+
+
+ }
+
+ #descricao{
+     float: right;
+     margin-left: 3%;
+     margin-right: 3%;
+     margin-top: 16.5%;
+     border: solid;
+     padding-top: 5%;
+     padding-bottom: 4%;
+     padding-left: 2%;
+     padding-right: 2%;
+     border-radius: 20px;
+     background-color: white;
+
+ }
+
+ .box{
+    border: solid;
+    margin-right: 47%;
+    padding-left: 8%;
+    padding-bottom: 3%;
+    padding-top: 3%;
+    background-color: white;
+    border-radius: 20px;
+    font-family: "Courier New", Courier, monospace;
+
+ }
+
+
+
+ @media screen and (max-width: 980px) {
+
+     .box {
+         border: solid;
+         margin-right: 50%;
+         width: 170%;
+         padding-left: 15%;
+         padding-bottom: 3%;
+         padding-top: 3%;
+         background-color: white;
+         border-radius: 20px;
+         font-family: "Courier New", Courier, monospace;
+
+     }
+
+     .form-control {
+         width: 90%;
+         height: 5%
+     }
+
+     img {
+         margin-left: 60%;
+         margin-bottom: 8%;
+         margin-top: 1%;
+         width: 60%;
+         height: 25%;
+     }
+
+     .btn-primary {
+         width: 90%;
+         height: 8%;
+         background-color: #34ce57;
+         border-color: #34ce57;
+     }
+
+     #cadastro {
+         margin-left: 28%;
+         font-size: 120%;
+     }
+
+     #esqueceu_senha {
+         margin-left: 15%;
+         font-size: 120%;
+     }
+
+     #descricao {
+         display: none;
+
+     }
+
+     body {
+         background-image: url("../../imagens/calendario.png");
+         background-size: 100%;
+         background-attachment: fixed
+     }
+ }
